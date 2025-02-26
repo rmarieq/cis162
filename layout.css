@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* Body */
+body {
+    max-width: 1200px;
+    min-width: 400px;
+    margin: auto;
+}
+
+body > article {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+}
+
+header > h1 {
+    padding: 0.5em;
+    margin: 0px;
+}
+
+footer {
+    margin-top: 2em;
+    padding: 0.5em;
+}
+
+/* Navigation */
+nav {
+    width: 100%;
+    display: table; /*Similar to Tutorial 1, I'd like to have a horizontal navigation menu, so I'm copying the code I saw there.*/
+    padding: 0.2em 0em;
+}
+
+nav > ul {
+    display: table-row;
+}
+
+nav > ul > li {
+    display: table-cell;
+    text-align: center;
+}
